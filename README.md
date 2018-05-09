@@ -19,7 +19,7 @@ NOTE: comments are added automatically to every node using my script to use node
 ![Script result](https://github.com/Neogene/HoudiniGenerateAllNodes/blob/master/result.png)
 
 ## INSTALLATION: ##
-1. create a geometry node
+1. create a geometry node (keep default name: geo1)
 2. right click on it -> Type Properties -> scripts
 3. Load the script after downloading or select the OnUpdated voice from the dropdown menu and paste the code (remember to select PYTHON as language on the right area dropdown menu)
 4. Every time you accept/confirm the Scripts windows generates a new sequence, so it's better to run once or delete all the nodes before restarting.
