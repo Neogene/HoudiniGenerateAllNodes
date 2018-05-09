@@ -4,7 +4,7 @@
 #HOUDINI VERSION: TESTED ON HOUDINI 16.0 AND 16.5
 #SCRIPT VERSION: 1.0
 #DESCRIPTION:
-# 1. create a geometry node
+#1. create a geometry node
 #2. right click on it -> Type Propertis -> scripts
 #3. Load the script after downloading or select the OnUpdated voice from the dropdown menu and paste the code (remember to select PYTHON as language on the right area dropdown menu)
 
@@ -20,13 +20,13 @@ def populateWithAllNodes():
     #if len(parent.allItems())>0:
     #parent.deleteItems(parent.allItems()) #removes all children
 
-    print "Children deleted..."
+    #print "Children deleted..."
     
     for category in categories.values():
         node_types = category.nodeTypes()
         #print "NODE TYPES:"+node_types
         for node_type in node_types.keys():
-            print "Creating: "+node_type 
+            #print "Creating: "+node_type 
             
             if node_type=="v_constant":
                 continue
@@ -34,12 +34,11 @@ def populateWithAllNodes():
             try:
                 node = parent.createNode(node_type)
                 i=i+1
-                if len(node.comment())==0 :
-                    node.destroy()
                 
             except hou.OperationFailed:
                 print "error creating:"+node_type
 
-    print ("PARENT:"+parent.name())
+    #print ("PARENT:"+parent.name())
+    hou.ui.displayMessage(str(i) + " nodes created.")
 
 populateWithAllNodes()

@@ -22,10 +22,10 @@ NOTE: comments are added automatically to every node using my script to use node
 1. create a geometry node (keep default name: geo1)
 2. right click on it -> Type Properties -> scripts
 3. Load the script after downloading or select the OnUpdated voice from the dropdown menu and paste the code (remember to select PYTHON as language on the right area dropdown menu)
-4. Every time you accept/confirm the Scripts windows generates a new sequence, so it's better to run once or delete all the nodes before restarting.
-5. Wait at least 15 seconds.
+4. Every time you click on accept/apply buttons in the Scripts tab generates a new sequence, so it's better to run once or delete all the nodes before restarting.
+5. Wait at least 15 seconds (check bottom status bar for execution progress status and duration), a popup will notify about its end.
 6. Enter the Geometry node
-7. Use Tools->Layout All
+7. Use Tools->Layout All (or press L key)
 
 ## NODES: ##
 Thi script take at best 15 seconds to run so: be patient.
