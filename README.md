@@ -16,7 +16,7 @@ My script to use node documentation as node comment [Download](https://github.co
 ## RESULTS: ##
 NOTE: comments are added automatically to every node using my script to use node documentation as node comment [Download](https://github.com/Neogene/HoudiniHelpToComment)
 
-![Script result](https://github.com/Neogene/HoudiniGenerateAllNodes/result.png)
+![Script result](https://github.com/Neogene/HoudiniGenerateAllNodes/blob/master/result.png)
 
 
 ## INSTALLATION: ##
