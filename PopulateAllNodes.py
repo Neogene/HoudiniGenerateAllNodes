@@ -5,7 +5,7 @@
 #SCRIPT VERSION: 1.0
 #DESCRIPTION:
 #1. create a geometry node
-#2. right click on it -> Type Propertis -> scripts
+#2. right click on it -> Type Properties -> scripts
 #3. Load the script after downloading or select the OnUpdated voice from the dropdown menu and paste the code (remember to select PYTHON as language on the right area dropdown menu)
 
 import hou
